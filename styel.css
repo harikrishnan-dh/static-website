@@ -7,12 +7,12 @@ h1
 }
 #nav,ul,a
 {
-    text-align: center;
-    font-size: 23px;
+    text-align:center;
+    font-size:25px;
     padding: 4px;
     /* word-spacing: 10px; */
     text-transform: capitalize;
-    color:tomato;
+    color:rgb(95, 95, 10);
     margin: 10px;
     text-decoration: none;
     font-weight: bold;
