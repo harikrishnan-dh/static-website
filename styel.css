@@ -1,18 +1,30 @@
-/* RESET */
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+#nav a span {
+    display: none;
+}
+
+#nav a::after {
+    display: block;
+    text-align: center;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* BODY */
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
   line-height: 1.5;
 }
 
-/* NAVIGATION BAR */
 #nav {
   background: black;
   padding: 10px;
@@ -36,7 +48,6 @@ body {
   color: yellow;
 }
 
-/* IMAGE SECTIONS */
 #image img,
 #footer img,
 #hello img {
@@ -47,18 +58,15 @@ body {
   border-radius: 10px;
 }
 
-/* CONTENT BOXES */
 #page, #header, #boss, #About {
   margin: 20px 0;
 }
 
-/* TITLES */
 h1, h3, h4, h5 {
   margin-bottom: 10px;
   color: #333;
 }
 
-/* MORE LINK */
 #more {
   text-align: center;
   margin-top: 20px;
@@ -74,11 +82,6 @@ h1, h3, h4, h5 {
   color: darkorange;
 }
 
-/* --------------------------------------------- */
-/* RESPONSIVE MEDIA QUERIES                     */
-/* --------------------------------------------- */
-
-/* 📱 Mobile (0–600px) */
 @media (max-width: 600px) {
 
   body {
